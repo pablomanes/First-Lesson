@@ -1,25 +1,47 @@
-.header {
+.header h1 {
   margin-top: auto;
-  color: white;
-  font: 100px;
-  background-color: blue;
-  padding-top: 80px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  text-align: center
+  color: black;
+  font-size: 50px;
+  background-color: lightblue;
+  padding: 80px 20px 20px 20px;
+  text-align: center;
 }
-#info {
-  background: gray
+.header h2{
+  background: gray;
+  font-size: 30px;
+
 }
 #aboutMe {
   /* display: inline-block; */
   float: left;
+align-items: left;
+text-align: left;
+}
+.allContent{
+  align-items: left;
+  width:750px;
+
 
 }
-
+.mainContent {
+  width: 300px;
+  background-color: lightyellow;
+  float: left;
+  margin-left: 50px;
+  border-color: black;
+  border-style: solid;
+  padding: 0 10px 0 10px;
+}
 .contactInfo {
-  display: inline-block;
-  float right:
+  /* display: inline-block; */
+  float: right;
+  width: 250px;
+  background-color: lightyellow;
+  margin-right: 50px;
+  overflow: hidden;
+  border-color: black;
+  border-style: solid;
+  padding: 0 10px 0 10px;
 }
 
 h2 {
